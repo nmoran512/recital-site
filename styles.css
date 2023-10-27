@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background-color: darkgrey;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+
+    background-size: cover;
+    padding: 20px; /* Adjust the padding as needed */
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+}
+
+#image-container {
+
+    width: 100%;
+    text-align: center; /* Center align the image horizontally */
+}
+#image-container img {
+    max-width: 100%; /* Ensure the image spans the container width */
+    height: auto; /* Maintain aspect ratio of the image */
+    padding: 0 10px;
+}
+#content-container {
+background-color: darkgrey;
+
+    /* Center align the content horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the content vertically */
+    min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
+}
+
+#signup-box {
+    width: 60%;
+    /* Remove or adjust the fixed width of the signup-box */
+    height: 75%;
+    border: 2px solid midnightblue;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+#signup-box .form-group {
+    margin-bottom: 10px;
+}
+#signup-box .form-group label{
+
+    padding-left: 20px;
+    width: 150px;
+    display: block;
+    text-align: left;
+    float: left;
+    clear: left;
+    margin-right: 10px;
+}
+#signup-box .form-group input[type="text"],
+#signup-box .form-group input[type="email"],
+#signup-box .form-group input[type="number"] {
+    width: 55%;
+
+    margin-top: 5px;
+}
+
+ .form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    text-align: center;
+
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"] {
+    width: 25%;
+    padding: 3px;
+    margin-top: 5px;
+}
+#helpful-info{
+    background-color: whitesmoke;
+    border: midnightblue solid 1px;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+footer {
+    background-color: #333; /* Set the background color to dark gray */
+    color: #fff; /* Set the text color to white */
+    padding: 10px; /* Add padding for spacing inside the footer */
+    text-align: center; /* Center-align the content within the footer */
+    margin-top: 20px;
+}
+
